@@ -1,0 +1,369 @@
+PCBNEW-LibModule-V1  26/01/2014 18:24:24
+# encoding utf-8
+Units mm
+$INDEX
+BSS84AKS
+LP3982
+MOC205M
+RT9186AGF
+VDRH05B011xyE-TH
+$EndINDEX
+$MODULE BSS84AKS
+Po 0 0 0 15 52E504D6 00000000 ~~
+Li BSS84AKS
+Sc 0
+AR 
+Op 0 0 0
+T0 0.9652 -1.397 1 1 0 0.15 N V 21 N "BSS84AKS"
+T1 0.6858 3.048 1 1 0 0.15 N V 21 N "VAL**"
+DC -0.762 -0.6096 -0.5588 -0.5334 0.1 21
+DS -0.4318 -0.4318 -0.4318 1.905 0.1 21
+DS 2.2352 -0.4318 2.2352 1.905 0.1 21
+DS -0.425 1.9118 2.225 1.9118 0.1 21
+DS -0.425 -0.4504 2.225 -0.4504 0.1 21
+$PAD
+Sh "5" R 0.6 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.8 0.75
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "4" R 0.6 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.8 1.5
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "6" R 0.6 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.8 0
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "3" R 0.6 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.5
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "1" R 0.6 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "2" R 0.6 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0.75
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$EndMODULE BSS84AKS
+$MODULE LP3982
+Po 0 0 0 15 52E544C2 00000000 ~~
+Li LP3982
+Sc 0
+AR /52E53A40
+Op 0 0 0
+T0 1.4478 -1.5748 1 1 0 0.15 N V 21 N "U3"
+T1 1.5494 3.302 1 1 0 0.15 N V 21 N "LP3982"
+DC 0 -0.508 -0.0762 -0.635 0.1 21
+DS 0.381 -0.2794 1.905 -0.2794 0.1 21
+DS 1.905 -0.2794 1.905 1.7526 0.1 21
+DS 1.905 1.7526 0.381 1.7526 0.1 21
+DS 0.381 1.7526 0.381 -0.2794 0.1 21
+$PAD
+Sh "8" R 0.5 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.3 0
+.SolderMask 0.08
+.LocalClearance 0.08
+$EndPAD
+$PAD
+Sh "7" R 0.5 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "OptoOutput"
+Po 2.3 0.5
+.SolderMask 0.08
+.LocalClearance 0.08
+$EndPAD
+$PAD
+Sh "6" R 0.5 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "N-0000015"
+Po 2.3 1
+.SolderMask 0.08
+.LocalClearance 0.08
+$EndPAD
+$PAD
+Sh "5" R 0.5 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.3 1.5
+.SolderMask 0.08
+.LocalClearance 0.08
+$EndPAD
+$PAD
+Sh "4" R 0.5 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.5
+.SolderMask 0.08
+.LocalClearance 0.08
+$EndPAD
+$PAD
+Sh "3" R 0.5 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "GND"
+Po 0 1
+.SolderMask 0.08
+.LocalClearance 0.08
+$EndPAD
+$PAD
+Sh "2" R 0.5 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "OptoOutput"
+Po 0 0.5
+.SolderMask 0.08
+.LocalClearance 0.08
+$EndPAD
+$PAD
+Sh "1" R 0.5 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "LDO_2_Output"
+Po 0 0
+.SolderMask 0.08
+.LocalClearance 0.08
+$EndPAD
+$PAD
+Sh "9" R 1.2 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.15 0.75
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$EndMODULE LP3982
+$MODULE MOC205M
+Po 0 0 0 15 52E542B3 00000000 ~~
+Li MOC205M
+Sc 0
+AR /52E4EF0A
+Op 0 0 0
+T0 3.175 -1.8796 1 1 0 0.15 N V 21 N "U2"
+T1 3.5052 5.8674 1 1 0 0.15 N V 21 N "MOC205M"
+DC 1.5748 0 1.9304 0.127 0.1 21
+DS 0.9144 -0.6096 0.9144 4.4958 0.1 21
+DS 4.5466 -0.6096 0.9144 -0.6096 0.1 21
+DS 4.5466 -0.6096 4.5466 4.4958 0.1 21
+DS 4.5466 4.4958 0.9144 4.4958 0.1 21
+$PAD
+Sh "8" R 1.52 0.61 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.47 0
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "7" R 1.52 0.61 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.47 1.2446
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "6" R 1.52 0.61 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "OptoOutput"
+Po 5.47 2.5146
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "5" R 1.52 0.61 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "GND"
+Po 5.47 3.7846
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "4" R 1.52 0.61 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 3.81
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "3" R 1.52 0.61 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 2.54
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "2" R 1.52 0.61 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "GND"
+Po 0 1.27
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "1" R 1.52 0.61 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "N-0000013"
+Po 0 0
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$EndMODULE MOC205M
+$MODULE RT9186AGF
+Po 0 0 0 15 52E50481 00000000 ~~
+Li RT9186AGF
+Sc 0
+AR 
+Op 0 0 0
+T0 2.413 -3.4798 1 1 0 0.15 N V 21 N "RT9186AGF"
+T1 2.4892 2.0574 1 1 0 0.15 N V 21 N "VAL**"
+DC 1.0922 -2.0066 1.1938 -1.7526 0.1 21
+DS 0.6096 0.6096 3.4544 0.6096 0.1 21
+DS 0.6096 -2.5146 3.4544 -2.5146 0.1 21
+DS 3.4544 -2.508 3.4544 0.592 0.1 21
+DS 0.6096 -2.508 0.6096 0.592 0.1 21
+$PAD
+Sh "5" R 0.95 0.38 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.05 0
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "6" R 0.95 0.38 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.05 -0.62206
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "8" R 0.95 0.38 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.05 -1.92206
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "7" R 0.95 0.38 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.05 -1.27206
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "2" R 0.95 0.38 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1.3
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "1" R 0.95 0.38 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1.95
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "3" R 0.95 0.38 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -0.65
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "4" R 0.95 0.38 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+.SolderMask 0.1
+.LocalClearance 0.1
+$EndPAD
+$EndMODULE RT9186AGF
+$MODULE VDRH05B011xyE-TH
+Po 0 0 0 15 52E541A8 00000000 ~~
+Li VDRH05B011xyE-TH
+Sc 0
+AR /52E4ECA0
+Op 0 0 0
+T0 3.7338 -2.032 1 1 0 0.15 N V 21 N "R5"
+T1 3.683 1.7526 1 1 0 0.15 N V 21 N "VDRH05B011xyE"
+$PAD
+Sh "2" C 0.85 0.85 0 0 0
+Dr 0.65 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po 6 0
+$EndPAD
+$PAD
+Sh "1" C 0.85 0.85 0 0 0
+Dr 0.65 0 0
+At STD N 00E0FFFF
+Ne 2 "V_input"
+Po 0 0
+$EndPAD
+$EndMODULE VDRH05B011xyE-TH
+$EndLIBRARY
